@@ -36,7 +36,7 @@ GEPs are required for **non-trivial, project-wide changes**, in particular for:
 - **New features** beyond very small, incremental additions
 - **Major changes** to existing functionality
 - Topics with **cross-team or ecosystem-wide impact**
-- **New extensions** in the Gardener organizatino
+- **New extensions** in the Gardener organization
 - Changes requiring **TSC discussion**
 
 The goal is to keep the process lightweight enough that using a GEP is the **default** for significant changes.
@@ -55,7 +55,7 @@ Benefits include:
 - A durable, searchable **record of decisions and rationale**
 - Early feedback that often prevents costly redesigns later
 
-The process is inspired by established proposal systems such as IETF RFCs, Python PEPs, Rust RFCs, and Kubernetes GEPs, but adapted to Gardener's governance model.
+The process is inspired by established proposal systems such as IETF RFCs, Python PEPs, Rust RFCs, and Kubernetes KEPs, but adapted to Gardener's governance model.
 
 ---
 
@@ -92,7 +92,7 @@ You usually **do not** need a GEP for:
 - Minor, non-controversial enhancements
 - Changes scoped strictly to a single subproject that do **not** meet steering criteria
 
-When in doubt, err on the side of creating a GEP or ask a TSC member for guidance.
+If you are unsure whether your change requires a GEP, it is better to create one rather than skip it. You can also ask a TSC member for guidance.
 
 ---
 
